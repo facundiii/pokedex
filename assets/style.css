@@ -1,0 +1,8 @@
+.flex-warp{
+    flex-wrap: wrap;
+}
+
+.dropdown-texto {
+    font-family: Nunito;
+    font-weight: 500;
+}

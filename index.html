@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Pokedex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Pokemon</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Pokedex</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle dropdown-texto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pokemones - Fuego
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#charmander">Charmander</a></li>
+                        <li><a class="dropdown-item" href="#charmeleon">Charmeleon</a></li>
+                        <li><a class="dropdown-item" href="#charizard">Charizard</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle dropdown-texto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pokemones - Agua
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#squirtle">Squirtle</a></li>
+                        <li><a class="dropdown-item" href="#wartortle">Wartortle</a></li>
+                        <li><a class="dropdown-item" href="#blastoise">Blastoise</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle dropdown-texto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pokemones - Normal
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#butterfree">Butterfree</a></li>
+                        <li><a class="dropdown-item" href="#weedle">Weedle</a></li>
+                        <li><a class="dropdown-item" href="#kakuna">Kakuna</a></li>
+                        <li><a class="dropdown-item" href="#beedrill">Beedrill</a></li>
+                        <li><a class="dropdown-item" href="#pidgey">Pidgey</a></li>
+                        <li><a class="dropdown-item" href="#pidgeotto">Pidgeotto</a></li>
+                        <li><a class="dropdown-item" href="#pidgeot">Pidgeot</a></li>
+                        <li><a class="dropdown-item" href="#rattata">Rattata</a></li>
+                        <li><a class="dropdown-item" href="#raticate">Raticate</a></li>
+                        <li><a class="dropdown-item" href="#spearow">Spearow</a></li>
+                        <li><a class="dropdown-item" href="#fearow">Fearow</a></li>
+                        <li><a class="dropdown-item" href="#ekans">Ekans</a></li>
+                        <li><a class="dropdown-item" href="#arbok">Arbok</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle dropdown-texto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pokemones - Planta
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#bulbasaur">Bulbasaur</a></li>
+                        <li><a class="dropdown-item" href="#ivysaur">Ivysaur</a></li>
+                        <li><a class="dropdown-item" href="#venusaur">Venusaur</a></li>
+                        <li><a class="dropdown-item" href="#caterpie">Caterpie</a></li>
+                        <li><a class="dropdown-item" href="#metapod">Metapod</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="Container">
+            <div class="Row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="text-dark dropdown-texto">Pokemon</h1>
+                </div>
+            </div>
+        <div class="Container mt-5">
+            <div class="Row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="text-dark dropdown-texto">Pokemones</h1>
+                </div>
+            </div>
+            <div class="Row d-flex flex-warp" id="app">
+              
+            </div>
+        </div>
+  </div>
+    </main>
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+</body>
+</html>
